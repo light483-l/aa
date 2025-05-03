@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = "5edfcff0-94a7-4c66-bbc0-f743141f39c6"  # Замените на реальный ключ Яндекс.Карт
+API_KEY = "5edfcff0-94a7-4c66-bbc0-f743141f39c6"
 
 
 def get_coordinates(address):
