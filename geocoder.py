@@ -4,7 +4,6 @@ API_KEY = "5edfcff0-94a7-4c66-bbc0-f743141f39c6"
 
 
 def get_coordinates(address):
-    """Получение координат по адресу"""
     geocoder_url = "https://geocode-maps.yandex.ru/1.x/"
     params = {
         "apikey": API_KEY,
@@ -25,7 +24,6 @@ def get_coordinates(address):
 
 
 def get_ll_span(address):
-    """Получение координат и размеров объекта"""
     geocoder_url = "https://geocode-maps.yandex.ru/1.x/"
     params = {
         "apikey": API_KEY,
